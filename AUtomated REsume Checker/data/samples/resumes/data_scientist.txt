@@ -1,0 +1,35 @@
+DR. PRIYA SHARMA
+Email: priya.ds@email.com | Phone: (555) 777-8888 | Location: Boston, MA
+
+SUMMARY
+Expert Data Scientist with a PhD in Computer Science and 5 years of industry experience. Deep specialization in machine learning, natural language processing, and statistical modeling.
+
+WORK EXPERIENCE
+DataInsight AI | Lead Data Scientist
+March 2021 - Present | Boston, MA
+- Developed and deployed deep learning models using TensorFlow for predictive maintenance in manufacturing.
+- Reduced model latency by 50% through quantization and efficient architecture design.
+- Published 3 papers in international AI conferences on the topic of federated learning.
+- Built automated data pipelines using Spark and Python to process terabytes of data.
+
+Cognitive Analytics | Senior Data Scientist
+July 2018 - February 2021 | Cambridge, MA
+- Implemented large-scale NLP models for sentiment analysis of customer reviews.
+- Achieved top 1% rank in a global Kaggle competition for demand forecasting.
+- Collaborated with product teams to integrate AI features into enterprise software.
+
+EDUCATION
+MIT
+PhD in Computer Science (Machine Learning Focus) | 2014 - 2018
+Georgia Institute of Technology
+Master of Science in Data Science | 2012 - 2014
+
+SKILLS
+- Machine Learning: TensorFlow, PyTorch, Scikit-learn, XGBoost
+- Languages: Python, R, SQL, C++
+- Data Engineering: Spark, Hadoop, Airflow, SQL
+- Statistics: Hypothesis Testing, Bayesian Inference, Regression Analysis
+
+CERTIFICATIONS
+- AWS Certified Machine Learning - Specialty
+- Deep Learning Specialization (DeepLearning.AI)

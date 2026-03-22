@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Gesture Draw</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Video Feed -->
+        <div class="video-wrapper">
+            <img src="/video_feed" alt="Live Stream" id="videoFeed">
+        </div>
+
+        <!-- Floating UX: Mode Badge -->
+        <div class="hud-top-center">
+            <div id="modeBadge" class="glass-badge mode-neutral">
+                <span class="icon">✋</span> <span id="modeText">Ready</span>
+            </div>
+        </div>
+
+        <!-- Floating UX: Status Indicators -->
+        <div class="hud-top-left">
+            <div class="status-card glass-panel">
+                <div class="status-row">
+                    <span class="label">Color</span>
+                    <div id="colorIndicator" class="color-dot"></div>
+                    <span id="colorName">White</span>
+                </div>
+                <div class="status-row">
+                    <span class="label">Size</span>
+                    <div class="size-bar-container">
+                        <div id="sizeBar" class="size-bar"></div>
+                    </div>
+                    <span id="sizeValue">10px</span>
+                </div>
+                 <div class="status-row">
+                    <span class="label">FPS</span>
+                    <span id="fpsValue">30</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Side Panel: Gesture Guide -->
+        <div class="side-panel glass-panel" id="guidePanel">
+            <button class="toggle-btn" id="toggleGuide">?</button>
+            <div class="guide-content">
+                <h2>Gestures</h2>
+                <ul class="gesture-list">
+                    <li>
+                        <span class="emoji">☝️ + ✊</span>
+                        <div class="desc">
+                            <strong>Draw</strong>
+                            <small>Index Up + Fist</small>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="emoji">🖐️🖐️</span>
+                        <div class="desc">
+                            <strong>Clear</strong>
+                            <small>Both Open</small>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="emoji">✌️</span>
+                        <div class="desc">
+                            <strong>Color</strong>
+                            <small>Index + Middle</small>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="emoji">🤏</span>
+                        <div class="desc">
+                            <strong>Size</strong>
+                            <small>Pinch</small>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="emoji">✊</span>
+                        <div class="desc">
+                            <strong>Move</strong>
+                            <small>One Fist Moving</small>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="emoji">✊✊</span>
+                        <div class="desc">
+                            <strong>Pause</strong>
+                            <small>Two Fists</small>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+Frontend Developer (React Specialist)
+Company: Creative Designs Ltd
+Location: New York, NY (Remote)
+Type: Full-time
+
+Job Description:
+We need a mid-level Frontend Developer who lives and breathes React. You will be building high-performance, accessible, and beautiful web interfaces for our diverse client base.
+
+Requirements:
+- 3-5 years of experience in frontend development.
+- Expert-level skills in React, TypeScript, and modern CSS (Tailwind/Styled Components).
+- Strong understanding of accessibility (WCAG) and performance optimization.
+- Experience with state management (Redux/Zustand).
+- Experience building responsive designs from Figma files.
+
+Preferred Skills:
+- Experience with Next.js.
+- Familiarity with animation libraries like Framer Motion.
+- Strong testing experience (Jest/Cypress).

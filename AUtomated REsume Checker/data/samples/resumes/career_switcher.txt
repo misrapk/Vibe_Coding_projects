@@ -1,0 +1,33 @@
+JAMIE TAYLOR
+Email: taylor.j@email.com | Phone: (555) 555-0000 | Location: Chicago, IL
+
+SUMMARY
+Adaptable and highly motivated Career Switcher. After 6 successful years in High-Impact Sales and Marketing, I recently completed an intensive Coding Bootcamp to pursue my passion for software development. Skilled in JavaScript and React with a focus on creating intuitive user experiences.
+
+WORK EXPERIENCE
+MarketLeaders Inc. | Senior Sales Associate
+January 2017 - August 2022 | Chicago, IL
+- Managed a portfolio of 50+ enterprise clients, consistently exceeding sales targets by 20%.
+- Led marketing campaigns that resulted in a 30% increase in brand awareness.
+- Developed strong communication and project management skills.
+
+TechAcademy Bootcamp | Full-Stack Student
+September 2022 - March 2023 | Online
+- Completed 1000+ hours of rigorous web development training.
+- Built multiple full-stack projects using React, Node.js, and MongoDB.
+- Gained experience in Git, collaborative development, and problem-solving.
+
+EDUCATION
+University of Illinois
+Bachelor of Arts in Marketing | 2012 - 2016
+
+SKILLS
+- Web Development: HTML5, CSS3, JavaScript, React, Node.js
+- Marketing: SEO, Digital Analytics, Brand Strategy
+- Soft Skills: Communication, Relationship Management, Team Leadership
+
+PROJECTS
+Personal Portfolio Site
+- Designed and built a responsive portfolio site using React and Framer Motion.
+Campaign Tracker
+- Developed a full-stack tool for tracking marketing KPIs.

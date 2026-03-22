@@ -1,0 +1,25 @@
+EMILY ZHOU
+Email: emily.zhou.cs@email.com | Phone: (555) 222-1111 | Location: Seattle, WA
+
+SUMMARY
+Recent Computer Science graduate from the University of Washington with a 3.9 GPA and deep interest in distributed systems. Three successful internships at lead tech firms.
+
+WORK EXPERIENCE
+Google | Software Engineering Intern
+June 2023 - September 2023 | Mountain View, CA
+- Worked on the Search Infrastructure team to improve query performance.
+- Implemented C++ latency monitoring tools for backend services.
+Amazon | SDE Intern
+June 2022 - September 2022 | Seattle, WA
+- Developed an internal automated testing framework for AWS S3.
+- Improved CI/CD pipeline efficiency using Python and Jenkins.
+
+EDUCATION
+University of Washington
+Bachelor of Science in Computer Science | 2020 - 2024
+GPA: 3.9/4.0
+
+SKILLS
+- Languages: Java, Python, C++, Go, SQL
+- Technologies: AWS, Docker, Kubernetes, Jenkins
+- Concepts: Data Structures, Algorithms, Distributed Systems

@@ -1,0 +1,36 @@
+SARAH CHEN
+Email: sarah.chen.py@email.com | Phone: (555) 987-6543 | Location: Seattle, WA
+
+SUMMARY
+Results-driven Mid-Level Python Developer with 4 years of experience specializing in backend development and cloud infrastructure. Proven track record of building scalable APIs and improving system performance.
+
+WORK EXPERIENCE
+Swiftly Logistics | Backend Engineer
+January 2021 - Present | Seattle, WA
+- Architected and implemented a microservices-based tracking system using Python and FastAPI.
+- containerized applications using Docker and deployed them to AWS ECS.
+- Optimized PostgreSQL database queries, reducing response times by 30%.
+- Integrated third-party payment gateways and communication APIs (Twilio, SendGrid).
+
+Spark Innovations | Junior Developer
+January 2019 - December 2020 | Portland, OR
+- Developed and maintained web applications using Python and Django.
+- wrote automated unit tests using Pytest, increasing code coverage to 85%.
+- Built data scraping scripts in Python to collect market insights.
+- Managed version control using Git and collaborated within a Scrum team.
+
+EDUCATION
+Oregon State University
+Bachelor of Science in Computer Science | 2015 - 2019
+
+SKILLS
+- Backend: Python, Django, FastAPI, Flask
+- Cloud/DevOps: AWS (S3, EC2, Lambda), Docker, Jenkins
+- Database: PostgreSQL, Redis, MongoDB
+- Tools: Git, Pytest, Swagger, Redis
+
+PROJECTS
+Open Source Contributor
+- Contributed to various Python open-source libraries focused on data processing.
+Home Automation API
+- Built a custom API for home IoT devices using Python and MQTT.

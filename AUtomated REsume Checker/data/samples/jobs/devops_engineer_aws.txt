@@ -1,0 +1,19 @@
+DevOps Engineer (AWS Focused)
+Company: CloudSync Tech
+Location: Denver, CO
+Type: Full-time
+
+Job Description:
+We are looking for a DevOps/Site Reliability Engineer to manage our growing cloud infrastructure. You will be responsible for scaling our AWS environment, automating deployments, and ensuring high availability.
+
+Requirements:
+- 4+ years of experience in DevOps or Cloud Engineering.
+- Mastery of AWS services (EC2, S3, RDS, ECS, Lambda).
+- Expert knowledge of Docker and Kubernetes.
+- Strong experience with Infrastructure as Code (Terraform or CloudFormation).
+- Experience with CI/CD tools like Jenkins or GitLab CI.
+
+Preferred Skills:
+- Proficiency in Python for infrastructure automation.
+- AWS Certified Solutions Architect or DevOps Engineer professional certification.
+- Experience with monitoring tools like Prometheus or Datadog.

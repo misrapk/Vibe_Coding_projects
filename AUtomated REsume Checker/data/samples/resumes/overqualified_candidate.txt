@@ -1,0 +1,22 @@
+DR. JONATHAN VANCE
+Email: j.vance.phd@email.com | Phone: (555) 111-2222 | Location: Los Angeles, CA
+
+SUMMARY
+Strategic technology leader with over 15 years of experience in AI research and software architecture. PhD from Caltech and former VP of Engineering at a Fortune 500 company.
+
+WORK EXPERIENCE
+NextGen AI | VP of Engineering
+2015 - 2023 | Los Angeles, CA
+- Scale a engineering organization from 20 to 200+ people.
+- Led the development of a proprietary machine learning engine that generated $500M in annual revenue.
+Tech Giant Corp | Director of Cloud Research
+2008 - 2015 | Palo Alto, CA
+- Managed a $10M research budget and led a team of 30 PhD researchers.
+
+EDUCATION
+Caltech
+PhD in Computer Science | 2003 - 2008
+UC Berkeley
+BS in Electrical Engineering and Computer Science | 1999 - 2003
+
+SKILLS: AI Strategy, Large Scale Distributed Systems, Cloud Architecture, C++, Python, R, Engineering Leadership, Strategic Planning

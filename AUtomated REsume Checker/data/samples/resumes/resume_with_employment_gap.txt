@@ -1,0 +1,20 @@
+ROBERT CHANDLER
+Email: rob.chandler@email.com | Phone: (555) 888-9999 | Location: Atlanta, GA
+
+SUMMARY
+Experienced Software Engineer with a total of 10 years in the industry. Took a 2-year sabbatical for family reasons and is now eager to return to a full-time engineering role.
+
+WORK EXPERIENCE
+Freelance Developer | Software Consultant
+2022 - Present | Remote
+- Built custom web solutions for local businesses using Python and React.
+[Sabbatical / Family Leave]
+2020 - 2022
+Enterprise Tech | Senior Developer
+2015 - 2020 | Atlanta, GA
+- Managed a large-scale Java codebase for clinical data management.
+SoftSystems | Developer
+2010 - 2015 | Austin, TX
+- Developed early web application features using Java and PHP.
+
+SKILLS: Python, Java, SQL, React, AWS, Enterprise Architecture

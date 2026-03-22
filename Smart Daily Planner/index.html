@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus | Smart Daily Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="animated-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <main class="app-container">
+        <header class="app-header">
+            <h1>Focus.</h1>
+            <div class="mood-selector">
+                <p>How are you feeling today?</p>
+                <div class="mood-options">
+                    <button class="mood-btn" data-mood="low" title="Low Energy">😴</button>
+                    <button class="mood-btn active" data-mood="normal" title="Normal">🙂</button>
+                    <button class="mood-btn" data-mood="high" title="High Energy">⚡</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="task-input-card glass-panel">
+            <form id="task-form">
+                <input type="text" id="task-title" placeholder="What needs to be done?" required autocomplete="off">
+                <div class="input-row">
+                    <div class="time-input">
+                        <input type="number" id="task-time" placeholder="Min" min="1" required>
+                        <span>min</span>
+                    </div>
+                    <button type="submit" class="add-btn" title="Add Task">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <section class="tasks-section">
+            <div class="section-header">
+                <h2>Today's Focus</h2>
+                <span id="focus-count" class="badge">0</span>
+            </div>
+            <ul id="focus-list" class="task-list">
+                <!-- Focus tasks go here -->
+            </ul>
+
+            <div class="collapsible-section">
+                <div class="section-header collapsible-header" id="later-header">
+                    <h2>Later</h2>
+                    <div class="header-right">
+                        <span id="later-count" class="badge">0</span>
+                        <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                </div>
+                <div class="collapsible-content" id="later-content">
+                    <ul id="later-list" class="task-list">
+                        <!-- Later tasks go here -->
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="stats-section" class="stats-section glass-panel hidden" style="margin-top: 2rem;">
+                <div class="section-header">
+                    <h2>Focus Time</h2>
+                </div>
+                <div class="chart-container" id="chart-container">
+                    <!-- Bars injected by JS -->
+                </div>
+            </div>
+
+            <div id="empty-state" class="empty-state">
+                <p id="empty-text">Let's start small today. ✨</p>
+            </div>
+        </section>
+
+        <footer class="app-footer">
+            <p id="motivational-quote">Small wins matter ✨</p>
+        </footer>
+    </main>
+
+    <!-- Focus Mode Overlay -->
+    <div id="focus-overlay" class="focus-overlay hidden">
+        <div class="focus-content">
+            <h2 id="focus-task-title">Task Title</h2>
+            <div class="timer-display">
+                <span id="timer-minutes">00</span><span class="colon">:</span><span id="timer-seconds">00</span>
+            </div>
+            <div class="focus-controls">
+                <button id="focus-toggle-btn" class="control-btn primary">Pause</button>
+                <button id="focus-stop-btn" class="control-btn secondary">Exit</button>
+            </div>
+            <button id="ambient-sound-btn" class="icon-btn" title="Toggle Ambient Sound (Brown Noise)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+        </div>
+    </div>
+
+    <!-- Confetti Container -->
+    <div id="confetti-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

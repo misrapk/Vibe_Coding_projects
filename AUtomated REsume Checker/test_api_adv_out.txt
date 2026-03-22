@@ -1,0 +1,57 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-9.0.2, pluggy-1.6.0
+rootdir: E:\CODING\2026\VibeCoding_Personal\AUtomated REsume Checker
+plugins: anyio-4.12.1
+collected 1 item
+
+tests\test_api_advanced.py .                                             [100%]
+
+============================== warnings summary ===============================
+src\backend\api\schemas.py:19
+  E:\CODING\2026\VibeCoding_Personal\AUtomated REsume Checker\src\backend\api\schemas.py:19: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.12/migration/
+    class UserResponse(BaseModel):
+
+src\backend\api\schemas.py:40
+  E:\CODING\2026\VibeCoding_Personal\AUtomated REsume Checker\src\backend\api\schemas.py:40: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.12/migration/
+    class ResumeResponse(BaseModel):
+
+src\backend\api\schemas.py:68
+  E:\CODING\2026\VibeCoding_Personal\AUtomated REsume Checker\src\backend\api\schemas.py:68: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.12/migration/
+    class JobResponse(BaseModel):
+
+src\backend\api\schemas.py:86
+  E:\CODING\2026\VibeCoding_Personal\AUtomated REsume Checker\src\backend\api\schemas.py:86: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.12/migration/
+    class MatchResponse(BaseModel):
+
+src\backend\api\schemas.py:107
+  E:\CODING\2026\VibeCoding_Personal\AUtomated REsume Checker\src\backend\api\schemas.py:107: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.12/migration/
+    class FeedbackResponse(BaseModel):
+
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute
+
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute
+
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
+
+tests/test_api_advanced.py: 14 warnings
+  E:\CODING\2026\VibeCoding_Personal\AUtomated REsume Checker\venv\Lib\site-packages\sqlalchemy\sql\schema.py:3624: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    return util.wrap_callable(lambda ctx: fn(), fn)  # type: ignore
+
+tests/test_api_advanced.py::test_full_recruitment_flow
+tests/test_api_advanced.py::test_full_recruitment_flow
+  E:\CODING\2026\VibeCoding_Personal\AUtomated REsume Checker\src\backend\api\security.py:29: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+
+tests/test_api_advanced.py::test_full_recruitment_flow
+  E:\CODING\2026\VibeCoding_Personal\AUtomated REsume Checker\src\backend\api\routes\matches.py:126: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    job = db.query(models.Job).get(match.job_id)
+
+tests/test_api_advanced.py::test_full_recruitment_flow
+  E:\CODING\2026\VibeCoding_Personal\AUtomated REsume Checker\src\backend\api\routes\utils.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    "timestamp": datetime.utcnow()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================== 1 passed, 26 warnings in 79.39s (0:01:19) ==================

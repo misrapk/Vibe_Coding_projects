@@ -1,0 +1,17 @@
+KEVIN SMITH
+Email: kevin.devops@email.com | Phone: (555) 444-3333 | Location: Denver, CO
+
+SUMMARY
+DevOps Engineer with 6 years of experience in automating infrastructure and building robust CI/CD pipelines. Expert in AWS and container orchestration with Kubernetes.
+
+WORK EXPERIENCE
+CloudScale Solutions | DevOps Engineer
+July 2020 - Present | Denver, CO
+- Optimized AWS infrastructure using Terraform, reducing cloud costs by 25%.
+- Managed large-scale Kubernetes clusters and improved deployment reliability.
+- Built automated security scanning into Jenkins pipelines.
+FastHire Tech | SRE
+August 2018 - June 2020 | remote
+- Monitored system health and automated incident response workflows.
+
+SKILLS: AWS, Docker, Kubernetes, Jenkins, Terraform, Python, Ansible, Linux

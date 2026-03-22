@@ -1,0 +1,18 @@
+Entry Level Software Engineer
+Company: Tech Giants Corp
+Location: Seattle, WA
+Type: Full-time
+
+Job Description:
+We are hiring fresh graduates for our engineering development program. You will rotate through different teams, working on high-impact projects while being mentored by world-class engineers.
+
+Requirements:
+- Bachelor's or Master's degree in Computer Science, Software Engineering, or related technical field.
+- Proficiency in at least one programming language (Java, Python, C++, Go).
+- Strong understanding of data structures, algorithms, and computer science fundamentals.
+- 0-1 years of experience (internships count).
+
+Preferred Skills:
+- Previous software engineering internship experience.
+- Experience with distributed systems or cloud technologies.
+- Active contribution to open-source projects.

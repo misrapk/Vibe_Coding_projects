@@ -1,0 +1,19 @@
+Junior Python Developer
+Company: TechLaunch Solutions
+Location: Austin, TX (Hybrid)
+Type: Full-time
+
+Job Description:
+We are looking for a motivated Junior Python Developer to join our backend team. You will be responsible for building and maintaining RESTful APIs, optimizing database queries, and collaborating with frontend developers.
+
+Requirements:
+- 0-2 years of experience with Python.
+- Strong understanding of SQL and relational databases (PostgreSQL/MySQL).
+- Familiarity with web frameworks like Django or Flask is a plus.
+- Basic knowledge of Git version control.
+- Bachelor's degree in Computer Science or related field.
+
+Preferred Skills:
+- Experience with Docker.
+- Familiarity with cloud services like AWS.
+- Strong problem-solving skills and a willingness to learn.

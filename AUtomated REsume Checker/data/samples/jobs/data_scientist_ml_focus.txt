@@ -1,0 +1,19 @@
+Data Scientist (ML Focus)
+Company: DataInsight AI
+Location: Boston, MA
+Type: Full-time
+
+Job Description:
+We are seeking a mid-level Data Scientist with a strong focus on Machine Learning to join our research and development team. You will be building predictive models and integrating AI features into our enterprise products.
+
+Requirements:
+- 3+ years of experience in Data Science or Machine Learning.
+- Proficiency in Python and ML libraries like TensorFlow or PyTorch.
+- Strong understanding of statistics and probability.
+- Experience with SQL and building data pipelines.
+- Bachelor's degree (Master's or PhD preferred).
+
+Preferred Skills:
+- Experience with NLP or Deep Learning.
+- Published research or highly ranked in Kaggle competitions.
+- Experience with Spark or Hadoop for large-scale data processing.

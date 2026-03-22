@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>WealthAI - Account Settings</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#001f3d",
+                        "emerald-accent": "#10b981",
+                        "emerald-hover": "#059669",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1923",
+                        "card-dark": "#162532",
+                        "border-dark": "#243647",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #0f1923;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #243647;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-200 font-display">
+<div class="flex h-screen overflow-hidden">
+<!-- Sidebar Navigation -->
+<aside class="w-64 flex-shrink-0 bg-primary border-r border-border-dark hidden lg:flex flex-col">
+<div class="p-6 flex items-center gap-3">
+<div class="w-10 h-10 bg-emerald-accent rounded-lg flex items-center justify-center text-white">
+<span class="material-symbols-outlined">payments</span>
+</div>
+<div>
+<h1 class="text-white text-lg font-bold leading-tight">WealthAI</h1>
+<p class="text-slate-400 text-xs">Financial Intelligence</p>
+</div>
+</div>
+<nav class="mt-6 flex-1 px-4 space-y-1">
+<a class="flex items-center gap-3 px-3 py-2 text-slate-400 hover:text-white hover:bg-white/5 rounded-lg transition-colors" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="text-sm font-medium">Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-400 hover:text-white hover:bg-white/5 rounded-lg transition-colors" href="#">
+<span class="material-symbols-outlined">pie_chart</span>
+<span class="text-sm font-medium">Portfolio</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-400 hover:text-white hover:bg-white/5 rounded-lg transition-colors" href="#">
+<span class="material-symbols-outlined">article</span>
+<span class="text-sm font-medium">Market News</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 bg-emerald-accent/10 text-emerald-accent rounded-lg transition-colors" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="text-sm font-medium">Settings</span>
+</a>
+</nav>
+<div class="p-4 mt-auto">
+<div class="bg-white/5 rounded-xl p-4">
+<p class="text-xs text-slate-400 mb-2">Current Tier</p>
+<div class="flex items-center justify-between mb-3">
+<span class="text-white font-bold">Premium Plan</span>
+<span class="material-symbols-outlined text-emerald-accent text-sm">verified</span>
+</div>
+<button class="w-full py-2 bg-emerald-accent hover:bg-emerald-hover text-white text-xs font-bold rounded-lg transition-all">
+                        Upgrade Features
+                    </button>
+</div>
+<button class="mt-4 flex items-center gap-3 px-3 py-2 text-slate-400 hover:text-red-400 transition-colors w-full">
+<span class="material-symbols-outlined">logout</span>
+<span class="text-sm font-medium">Logout</span>
+</button>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 overflow-y-auto custom-scrollbar bg-background-dark">
+<div class="max-w-5xl mx-auto px-6 py-8">
+<!-- Header & Breadcrumbs -->
+<div class="mb-8">
+<nav class="flex text-sm text-slate-500 mb-2 gap-2 items-center">
+<a class="hover:text-emerald-accent" href="#">Home</a>
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+<span class="text-slate-300">Account Settings</span>
+</nav>
+<h2 class="text-3xl font-extrabold text-white tracking-tight">Account Settings</h2>
+<p class="text-slate-400 mt-1">Manage your profile, security preferences, and subscription status.</p>
+</div>
+<!-- Profile Summary Section -->
+<div class="bg-card-dark border border-border-dark rounded-xl p-6 mb-8 flex flex-col md:flex-row md:items-center gap-6">
+<div class="relative group">
+<div class="w-24 h-24 rounded-full border-4 border-emerald-accent/20 bg-primary overflow-hidden">
+<img alt="Profile" class="w-full h-full object-cover" data-alt="User profile picture of Alex Thompson" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4uEBXI__1tMrp5L2IJr1XtICA-zX6GJKYhmE3RHuIuUfvdAWhqYXw4LFJ6iUzA38H5qYdFcUk8DptALlmRzPVsp1eXXfqMoa-v8ek8TKZKCaXLGbBBc6rBifsUYWt2Nkagu-8qpsCiytUDHKbFncDfUnWuyMbHPmcK6y7eya9s-MBWkF8rNvXqcO6mmbeMivXaL1NJ_JAfaPO9CPMddGhNkgRCZ5ym5TcjDK-4S6uBTgBfsvDVucPGMSIsM4Q1oWeriAhqANbwjI"/>
+</div>
+<button class="absolute bottom-0 right-0 bg-emerald-accent text-white p-1.5 rounded-full shadow-lg hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-sm">photo_camera</span>
+</button>
+</div>
+<div class="flex-1">
+<h3 class="text-xl font-bold text-white">Alex Thompson</h3>
+<p class="text-slate-400 text-sm">Member since Oct 12, 2022</p>
+<div class="mt-2 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-accent/10 text-emerald-accent border border-emerald-accent/20">
+                            Premium Tier
+                        </div>
+</div>
+<div>
+<button class="px-5 py-2.5 bg-primary border border-border-dark text-white rounded-lg hover:bg-border-dark transition-colors text-sm font-semibold">
+                            Save Changes
+                        </button>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Left Column: Forms -->
+<div class="lg:col-span-2 space-y-8">
+<!-- Profile Information -->
+<section class="bg-card-dark border border-border-dark rounded-xl overflow-hidden">
+<div class="px-6 py-4 border-b border-border-dark flex items-center gap-2">
+<span class="material-symbols-outlined text-emerald-accent">person</span>
+<h4 class="font-bold text-white uppercase tracking-wider text-xs">Profile Information</h4>
+</div>
+<div class="p-6 space-y-4">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="space-y-1.5">
+<label class="text-xs font-semibold text-slate-400 ml-1">Full Name</label>
+<input class="w-full bg-primary border border-border-dark rounded-lg px-4 py-2.5 text-white focus:ring-2 focus:ring-emerald-accent/50 focus:border-emerald-accent outline-none transition-all" type="text" value="Alex Thompson"/>
+</div>
+<div class="space-y-1.5">
+<label class="text-xs font-semibold text-slate-400 ml-1">Phone Number</label>
+<input class="w-full bg-primary border border-border-dark rounded-lg px-4 py-2.5 text-white focus:ring-2 focus:ring-emerald-accent/50 focus:border-emerald-accent outline-none transition-all" type="tel" value="+1 (555) 000-1234"/>
+</div>
+</div>
+<div class="space-y-1.5">
+<label class="text-xs font-semibold text-slate-400 ml-1">Email Address</label>
+<input class="w-full bg-primary border border-border-dark rounded-lg px-4 py-2.5 text-white focus:ring-2 focus:ring-emerald-accent/50 focus:border-emerald-accent outline-none transition-all" type="email" value="alex.thompson@wealthai.com"/>
+</div>
+<div class="space-y-1.5">
+<label class="text-xs font-semibold text-slate-400 ml-1">Timezone</label>
+<select class="w-full bg-primary border border-border-dark rounded-lg px-4 py-2.5 text-white focus:ring-2 focus:ring-emerald-accent/50 focus:border-emerald-accent outline-none transition-all">
+<option>PST - Pacific Standard Time</option>
+<option selected="">EST - Eastern Standard Time</option>
+<option>GMT - Greenwich Mean Time</option>
+</select>
+</div>
+</div>
+</section>
+<!-- Account Security -->
+<section class="bg-card-dark border border-border-dark rounded-xl overflow-hidden">
+<div class="px-6 py-4 border-b border-border-dark flex items-center gap-2">
+<span class="material-symbols-outlined text-emerald-accent">shield</span>
+<h4 class="font-bold text-white uppercase tracking-wider text-xs">Account Security</h4>
+</div>
+<div class="p-6 space-y-6">
+<div class="flex items-center justify-between">
+<div>
+<p class="text-white font-medium">Password</p>
+<p class="text-slate-400 text-sm">Last changed 3 months ago</p>
+</div>
+<button class="px-4 py-2 bg-primary border border-border-dark text-slate-200 rounded-lg hover:text-white hover:border-slate-500 transition-all text-sm font-medium">
+                                        Change Password
+                                    </button>
+</div>
+<hr class="border-border-dark"/>
+<div class="flex items-center justify-between">
+<div class="max-w-[70%]">
+<p class="text-white font-medium">Two-Factor Authentication (2FA)</p>
+<p class="text-slate-400 text-sm">Secure your account with an extra layer of protection using an authenticator app.</p>
+</div>
+<!-- Toggle Switch -->
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-emerald-accent"></div>
+</label>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column: Sidebar Widgets -->
+<div class="space-y-8">
+<!-- Subscription Card -->
+<section class="bg-card-dark border border-border-dark rounded-xl overflow-hidden">
+<div class="px-6 py-4 border-b border-border-dark flex items-center gap-2">
+<span class="material-symbols-outlined text-emerald-accent">workspace_premium</span>
+<h4 class="font-bold text-white uppercase tracking-wider text-xs">Subscription Details</h4>
+</div>
+<div class="p-6">
+<div class="mb-4">
+<p class="text-slate-400 text-xs font-semibold mb-1 uppercase tracking-tight">Current Plan</p>
+<p class="text-2xl font-black text-white">Premium</p>
+</div>
+<div class="space-y-3 mb-6">
+<div class="flex justify-between text-sm">
+<span class="text-slate-400">Monthly Billing</span>
+<span class="text-white font-medium">$49.00 / mo</span>
+</div>
+<div class="flex justify-between text-sm">
+<span class="text-slate-400">Next Billing Date</span>
+<span class="text-white font-medium">Oct 12, 2023</span>
+</div>
+</div>
+<div class="space-y-2">
+<button class="w-full py-2.5 bg-emerald-accent hover:bg-emerald-hover text-white font-bold rounded-lg transition-all text-sm">
+                                        Manage Subscription
+                                    </button>
+<button class="w-full py-2.5 bg-transparent text-slate-400 hover:text-white transition-all text-xs font-medium">
+                                        View Billing History
+                                    </button>
+</div>
+</div>
+</section>
+<!-- Connected Accounts -->
+<section class="bg-card-dark border border-border-dark rounded-xl p-6">
+<h4 class="font-bold text-white uppercase tracking-wider text-xs mb-4">Connected Institutions</h4>
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-blue-600 flex items-center justify-center text-xs font-bold text-white">C</div>
+<div class="flex-1">
+<p class="text-sm font-medium text-white">Chase Bank</p>
+<p class="text-xs text-slate-500">Connected</p>
+</div>
+<span class="material-symbols-outlined text-emerald-accent text-sm">check_circle</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-red-600 flex items-center justify-center text-xs font-bold text-white">V</div>
+<div class="flex-1">
+<p class="text-sm font-medium text-white">Vanguard</p>
+<p class="text-xs text-slate-500">Syncing...</p>
+</div>
+<div class="w-3 h-3 border-2 border-slate-500 border-t-emerald-accent rounded-full animate-spin"></div>
+</div>
+</div>
+<button class="mt-6 w-full py-2 border border-border-dark hover:border-emerald-accent/50 text-slate-300 hover:text-emerald-accent transition-all rounded-lg text-xs font-semibold flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">add</span>
+                                Add Account
+                            </button>
+</section>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body></html>

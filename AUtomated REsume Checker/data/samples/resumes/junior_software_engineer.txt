@@ -1,0 +1,38 @@
+ALEX RIVERA
+Email: alex.rivera.dev@email.com | Phone: (555) 123-4567 | Location: Austin, TX
+LinkedIn: linkedin.com/in/alexriveradev
+
+SUMMARY
+Enthusiastic Junior Software Engineer with a strong foundation in Python and web development. Recent Computer Science graduate with internship experience at a growing tech startup. Passionate about building scalable applications and learning new technologies.
+
+EDUCATION
+University of Texas at Austin
+Bachelor of Science in Computer Science | 2019 - 2023
+GPA: 3.7/4.0
+
+WORK EXPERIENCE
+TechFlow Startups | Software Engineering Intern
+May 2022 - August 2022 | Austin, TX
+- Developed a new dashboard feature using React and JavaScript that increased user engagement by 15%.
+- Collaborated with senior engineers to debug and optimize Python-based REST APIs.
+- Improved database query performance by 20% through SQL indexing and query refactoring.
+- Participated in daily stand-ups and code reviews following Agile methodologies.
+
+SKILLS
+- Languages: Python, JavaScript, SQL, HTML, CSS
+- Frameworks/Libraries: React, Node.js, Express
+- Tools: Git, VS Code, Postman, Docker (Basic)
+- Database: PostgreSQL, MySQL
+
+PROJECTS
+SmartRecipe Web App
+- Built a full-stack recipe recommendation app using React and Python (Flask).
+- Integrated Third-party API for nutritional data.
+- Handled state management with Redux.
+Movie Genre Classifier
+- Developed a Machine Learning project using Python and Scikit-learn.
+- Achieved 88% accuracy in classifying movie synopses into genres.
+
+CERTIFICATIONS
+- Meta Front-End Developer Professional Certificate (Coursera)
+- Python for Everybody Specialization (University of Michigan)

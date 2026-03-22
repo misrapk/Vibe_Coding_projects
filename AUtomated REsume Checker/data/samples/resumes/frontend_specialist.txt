@@ -1,0 +1,16 @@
+LISA MEYER
+Email: lisa.ux@email.com | Phone: (555) 666-5555 | Location: New York, NY
+
+SUMMARY
+Frontend Specialist with 5 years of experience focusing on React and accessibility. Expert in creating beautiful, responsive user interfaces.
+
+WORK EXPERIENCE
+Creative Agency | Senior Frontend Dev
+January 2021 - Present | New York, NY
+- Led frontend architecture for high-profile client projects using React and TypeScript.
+- Implemented WCAG 2.1 accessibility standards across all company products.
+Design Studio | Web Developer
+June 2018 - December 2020 | Brooklyn, NY
+- Built pixel-perfect interfaces from Figma designs.
+
+SKILLS: React, Vue.js, TypeScript, CSS, HTML, Figma, Accessibility, Framer Motion
